@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
+    "fuse.js": "^6.4.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
@@ -29,6 +30,7 @@
       "react-app/jest"
     ]
   },
+  "proxy": "https://europe-west3-ethereal-226d2.cloudfunctions.net/api",
   "browserslist": {
     "production": [
       ">0.2%",
